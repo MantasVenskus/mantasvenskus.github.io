@@ -1,3 +1,4 @@
+<?php ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,6 +8,7 @@
 
 	<h2>Titles</h2>
 	<p>Pagrapgraphs</p>
-	
+
 </body>
 </html>
+<?php ?>
