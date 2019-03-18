@@ -13908,7 +13908,8 @@ form select.form-control {
         padding: 0; }
 
 .student {
-  padding: 0; }
+  padding: 0;
+  padding-top: 80px; }
   .student .capture__sections section {
     display: flex;
     justify-content: center; }
