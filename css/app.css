@@ -14161,7 +14161,7 @@ form select.form-control {
     height: 550px; }
 
   .teacher.capture {
-    padding: 0; }
+    padding-bottom: 0; }
 
   .student.capture {
     padding: 0; }
@@ -14262,13 +14262,15 @@ form select.form-control {
         display: block; }
 
   .student.capture .capture__sections section {
-    display: block; }
+    flex-wrap: wrap; }
     .student.capture .capture__sections section .col {
-      width: 100%; }
+      width: 100%;
+      flex-basis: 100%; }
       .student.capture .capture__sections section .col .text {
         margin: 0 auto; }
     .student.capture .capture__sections section .bg {
-      background: none; }
+      background: none;
+      order: 2; }
       .student.capture .capture__sections section .bg img {
         display: block; } }
 @media screen and (max-width: 959px) {
