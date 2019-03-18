@@ -14198,6 +14198,9 @@ form select.form-control {
       border-radius: 0 0 6px 6px; } }
 @media screen and (max-width: 1199px) {
   /* 1199px counts */
+  .teacher .capture__sections section .col .text.left-side {
+    padding-left: 15px;
+  }
   .capture__why-text p {
     padding: 0 0 15px; }
 
@@ -14246,13 +14249,15 @@ form select.form-control {
     padding: 25px 40px 25px;
     margin: 0 auto; }
   .teacher.capture .capture__sections section {
-    display: block; }
+    flex-wrap: wrap; }
     .teacher.capture .capture__sections section .col {
-      width: 100%; }
+      width: 100%;
+      flex-basis: 1; }
       .teacher.capture .capture__sections section .col .text {
         margin: 0 auto; }
     .teacher.capture .capture__sections section .bg {
-      background: none; }
+      background: none;
+      order: 2; }
       .teacher.capture .capture__sections section .bg img {
         display: block; }
 
@@ -14285,8 +14290,15 @@ form select.form-control {
     padding: 0 0px 20px 0;
     display: block; }
 
-  .capture__why-inputs {
-    padding: 30px 20px 10px 20px; }
+  .teacher .capture__why-inputs {
+    padding: 30px 20px 10px 20px;
+    text-align: left;
+    padding-left: 15%; }
+
+  .teacher .capture__why-result {
+    text-align: left;
+    padding-left: 15%;
+  }
 
   .capture__why-how .col {
     max-width: 49%; }
