@@ -13730,12 +13730,11 @@ form select.form-control {
     font-size: 18px;
     line-height: 1.6; }
 
+.bg-gray {
+  background-color: #F6F6F6; }
+
 .teacher {
   padding: 0; }
-  .teacher .bg-gray {
-    background-color: #F6F6F6; }
-  .teacher .btn-2:after {
-    background: url("/images/teacher/arrow_right.svg") center 0 no-repeat; }
   .teacher .capture__why {
     background: url("/images/teacher/back_head.jpg");
     background-repeat: no-repeat;
@@ -13803,7 +13802,7 @@ form select.form-control {
     .teacher .capture__sections section.section-3 {
       min-height: 500px; }
       .teacher .capture__sections section.section-3 .bg {
-        background-image: url("/images/teacher/sec3.jpg"); }
+        background-image: url("/images/teacher/sec3.png"); }
   .teacher .capture__why-info {
     text-align: center;
     padding: 36px 0 0; }
@@ -13908,6 +13907,211 @@ form select.form-control {
         margin-bottom: 0;
         padding: 0; }
 
+.student {
+  padding: 0; }
+  .student .capture__sections section {
+    display: flex;
+    justify-content: center; }
+    .student .capture__sections section .col {
+      width: 50%;
+      padding: 0; }
+      .student .capture__sections section .col .text {
+        max-width: 590px;
+        padding: 80px 15px 15px; }
+        .student .capture__sections section .col .text.left-side {
+          margin-left: 27%; }
+        .student .capture__sections section .col .text h2 {
+          font-weight: 300;
+          font-size: 48px;
+          line-height: normal;
+          color: #48bf9d;
+          margin-bottom: 20px; }
+        .student .capture__sections section .col .text p {
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 28px;
+          color: #888888; }
+        .student .capture__sections section .col .text .btn-container {
+          padding-top: 12px;
+          margin-bottom: 85px; }
+          .student .capture__sections section .col .text .btn-container a {
+            display: inline-block;
+            width: 240px;
+            height: 60px;
+            border: 2px solid #ff2660;
+            border-radius: 30px;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 56px;
+            text-align: center;
+            color: #ff2660;
+            vertical-align: middle; }
+    .student .capture__sections section .bg {
+      background-position: right center;
+      background-repeat: no-repeat;
+      background-size: auto 100%; }
+      .student .capture__sections section .bg.bg-left {
+        background-position: left center; }
+      .student .capture__sections section .bg img {
+        display: none;
+        width: 560px;
+        max-width: 100%;
+        margin: 0 auto; }
+    .student .capture__sections section.section-1 {
+      min-height: 577px; }
+      .student .capture__sections section.section-1 .bg {
+        background-image: url("/images/student/sec1.jpg"); }
+    .student .capture__sections section.section-2 {
+      min-height: 605px; }
+      .student .capture__sections section.section-2 .bg {
+        background-image: url("/images/student/sec2.jpg"); }
+    .student .capture__sections section.section-3 {
+      min-height: 500px; }
+      .student .capture__sections section.section-3 .bg {
+        background-image: url("/images/student/sec3.jpg"); }
+    .student .capture__sections section.section-4 {
+      min-height: 500px; }
+      .student .capture__sections section.section-4 .bg {
+        background-image: url("/images/student/sec4.jpg"); }
+    .student .capture__sections section.section-5 {
+      min-height: 500px; }
+      .student .capture__sections section.section-5 .bg {
+        background-image: url("/images/student/sec5.jpg"); }
+  .student .capture__why-how {
+    padding: 191px 15px 100px 15px;
+    background: url("/images/student/back_foot.png"), #F6F6F6 center no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center; }
+    .student .capture__why-how h2 {
+      margin: 0;
+      color: #fff;
+      margin-bottom: 20px; }
+    .student .capture__why-how p {
+      color: #fff;
+      padding: 0 0 30px;
+      margin-bottom: 0;
+      font-size: 18px;
+      line-height: 1.6; }
+      .student .capture__why-how p.btn-container {
+        margin-bottom: 0;
+        padding: 0; }
+        .student .capture__why-how p.btn-container a {
+          background-color: #fff;
+          color: #48bf9d;
+          padding: 10px 50px 12px; }
+  .student .capture__form {
+    padding-top: 100px;
+    text-align: center; }
+    .student .capture__form form {
+      max-width: 1400px;
+      margin: 0 auto; }
+      .student .capture__form form h2 {
+        font-weight: 300;
+        font-size: 48px;
+        line-height: normal;
+        color: #48bf9d;
+        margin-bottom: 20px; }
+      .student .capture__form form p {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #888888;
+        margin-bottom: 30px; }
+      .student .capture__form form .input-group {
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 40px;
+        text-align: left; }
+        .student .capture__form form .input-group .col {
+          display: flex;
+          justify-content: space-between;
+          padding: 0;
+          width: 50%;
+          padding-right: 0.5%;
+          padding-left: 0.5%; }
+          .student .capture__form form .input-group .col label {
+            width: 49%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 25px;
+            color: #888888; }
+            .student .capture__form form .input-group .col label input,
+            .student .capture__form form .input-group .col label textarea {
+              width: 100%;
+              font-weight: 300;
+              font-size: 18px;
+              line-height: 25px;
+              color: #222222;
+              padding: 10px 15px 7px 15px;
+              border: 2px solid #eeeeee;
+              border-radius: 4px; }
+              .student .capture__form form .input-group .col label input:focus,
+              .student .capture__form form .input-group .col label textarea:focus {
+                border: 2px solid #cccccc; }
+          .student .capture__form form .input-group .col.thirties label {
+            width: 32%; }
+          .student .capture__form form .input-group .col.full label {
+            width: 100%; }
+      .student .capture__form form .add-teacher {
+        border: 1px dashed #cccccc;
+        border-radius: 6px;
+        padding-top: 40px;
+        margin-top: 50px; }
+        .student .capture__form form .add-teacher .teacher-label {
+          border: 1px dashed #cccccc;
+          margin-top: -60px;
+          color: #48bf9d;
+          font-weight: 300;
+          font-size: 20px;
+          line-height: 35px;
+          width: 180px;
+          height: 40px;
+          display: inline-block;
+          border-radius: 30px;
+          position: relative;
+          z-index: 2;
+          background-color: #F6F6F6; }
+          .student .capture__form form .add-teacher .teacher-label:before {
+            content: '';
+            width: 12px;
+            height: 2px;
+            margin-right: 10px;
+            display: inline-block;
+            vertical-align: middle;
+            background: url("/images/student/minus.svg") center no-repeat; }
+        .student .capture__form form .add-teacher .input-group {
+          margin-bottom: 20px; }
+      .student .capture__form form .btn-container.add {
+        border: 1px dashed #cccccc;
+        border-radius: 6px;
+        margin-top: -1px;
+        height: 80px;
+        margin-bottom: 40px;
+        cursor: pointer; }
+        .student .capture__form form .btn-container.add span {
+          color: #48bf9d;
+          padding: 0;
+          margin: 0;
+          line-height: 80px;
+          border: none;
+          display: inline-block; }
+          .student .capture__form form .btn-container.add span:before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            margin-right: 10px;
+            display: inline-block;
+            vertical-align: middle;
+            background: url("/images/student/plus.svg") center no-repeat; }
+      .student .capture__form form .btn-container .btn-2 {
+        padding: 15px 66px 19px 30px; }
+
 @media screen and (max-width: 1440px) {
   .capture__why-inputs {
     padding: 34px 0 35px 0; }
@@ -13953,7 +14157,15 @@ form select.form-control {
     height: 550px; }
 
   .teacher.capture {
-    padding: 0; } }
+    padding: 0; }
+
+  .student.capture {
+    padding: 0; }
+    .student.capture .capture__form .input-group {
+      display: block;
+      margin: 0 auto 20px auto; }
+      .student.capture .capture__form .input-group .col {
+        width: 100%; } }
 @media screen and (max-width: 1280px) {
   /* 1280px counts */
   .capture__why-text p {
@@ -14038,6 +14250,17 @@ form select.form-control {
     .teacher.capture .capture__sections section .bg {
       background: none; }
       .teacher.capture .capture__sections section .bg img {
+        display: block; }
+
+  .student.capture .capture__sections section {
+    display: block; }
+    .student.capture .capture__sections section .col {
+      width: 100%; }
+      .student.capture .capture__sections section .col .text {
+        margin: 0 auto; }
+    .student.capture .capture__sections section .bg {
+      background: none; }
+      .student.capture .capture__sections section .bg img {
         display: block; } }
 @media screen and (max-width: 959px) {
   /* 959px counts */
@@ -14062,7 +14285,16 @@ form select.form-control {
     padding: 30px 20px 10px 20px; }
 
   .capture__why-how .col {
-    max-width: 49%; } }
+    max-width: 49%; }
+
+  .student.capture .capture__form .input-group {
+    display: block;
+    margin: 0 auto 20px auto; }
+    .student.capture .capture__form .input-group .col, .student.capture .capture__form .input-group .col.thirties {
+      width: 100%;
+      display: block; }
+      .student.capture .capture__form .input-group .col label, .student.capture .capture__form .input-group .col.thirties label {
+        width: 100%; } }
 @media screen and (max-width: 599px) {
   /* 599px counts */
   .capture__why-how .col {
