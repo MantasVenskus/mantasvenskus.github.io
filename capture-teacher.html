@@ -1,0 +1,353 @@
+<html lang="en" class="tablesaw-enhanced">
+<head>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        <!-- Plyr.io-->
+        <link rel="stylesheet" href="https://cdn.plyr.io/3.5.2/plyr.css">
+        <link rel="stylesheet" href="/css/app.css">
+        <script type="text/javascript" id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vfl5ur_dk/www-widgetapi.js" async=""></script><script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmWaj1K0FLN_K858Be80eq7Vnh5uWao64"></script>
+	<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script src="http://drill.web3.lt/js/app.js" defer=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.js"></script>
+    <script src="https://cdn.klokantech.com/mapbox-gl-js/v0.43.0/mapbox-gl.js"></script>
+    <script src="https://cdn.klokantech.com/mapbox-gl-leaflet/latest/leaflet-mapbox-gl.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css">
+    <link rel="stylesheet" href="https://cdn.klokantech.com/mapbox-gl-js/v0.43.0/mapbox-gl.css">
+    
+    <link rel="stylesheet" href="//unpkg.com/leaflet-gesture-handling/dist/leaflet-gesture-handling.min.css" type="text/css">
+	<script src="//unpkg.com/leaflet-gesture-handling"></script>
+
+	<link rel="manifest" href="manifest.json">
+<script src="https://www.youtube.com/iframe_api" async=""></script>
+<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/36/5/common.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/36/5/util.js"></script>
+</head>
+<body class="" cz-shortcut-listen="true">
+    <div class="headerblock">
+        <div class="headerblock__content">
+            <div class="headerblock__menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="headerblock__logo">
+                <a href="http://drill.web3.lt"></a>
+            </div>
+            <div class="headerblock__search">
+                <div class="headerblock__search-content">
+                    <form action="http://drill.web3.lt" method="post">
+                        <input type="text" placeholder="Search for classes or cities">
+                    </form>
+                    <a class="close-x" href="#"></a>
+                </div>
+            </div>
+            <div class="headerblock__search-btn">
+                <a href="#"></a>
+            </div>
+            <div class="headerblock__login">
+                    <a class="sign-in" href="#">Sign in</a>
+            </div>
+        </div>
+    </div>
+<!-- startas -->
+    <div class="teacher capture">
+        <div class="capture__why">
+            <div class="capture__why-text">
+                <h1>You Are Here. Which Means a World, to Some</h1>
+                <p>It’s either us, our extremely selective targeting, or your fans who see you as a perfect teacher. And this invitation to teach has never been less real. We actually want you to have a small group of students spend time with you, enjoying the experience of learning, in person.</p>
+                <p class="btn-container"><a class="sign-in btn-2 btn-2--smaller" href="#">Sign Up as Teacher</a></p>
+            </div>           
+            <div class="clear"></div>
+        </div>
+        <div class="capture__sections">
+            <section class="section-1">
+                <div class="col bg bg-right">
+                        <img src="{{ asset('images/teacher/sec1.jpg')}}" alt="Section">
+                </div>
+                <div class="col">
+                    <div class="text">
+                        <h2>Teaching is Giving Back. And it Seems the Time Has Come to You, Too</h2>
+                        <p>We, your fans, followers, readers, watchers see you as someone who shines brightly and inspires many. Someone who many people would dream of having a real class with. If you have already reached the top of the ladder in your career and you are already inspiring others, you very likely to already have this itch for sharing your knowledge with others. And we can set it up for you!</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section-2">                
+                <div class="col bg-gray">
+                    <div class="text left-side">
+                        <h2>Just One Week a Year May Change Your Life for the Better</h2>
+                        <p>We know that education can seem complicated with so many procedures, rules,  schedules and grades. Well, that’s not us;  We work with highly-motivated star teachers who set up their own courses the way they would prefer, as well as the location and time. The most important thing is to be physically and emotionally present with the students, interacting, transmitting knowledge, having fun and making friends.</p>
+                    </div>
+                </div>
+                <div class="col bg bg-left">
+                    <img src="{{ asset('images/teacher/sec2.jpg')}}" alt="Section">
+                </div>
+            </section>
+            <section class="section-3">
+                <div class="col bg bg-right">
+                    <img src="{{ asset('images/teacher/sec3.png')}}" alt="Section">
+                </div>
+                <div class="col">
+                    <div class="text">
+                        <h2>Place is Less Important than YOU</h2>
+                        <p>Your students will attend class in the place of the teacher’s choice. A two-month apprenticeship at your workplace? Perfect. A weekend intensive #drill at your ranch? Bueno! Every Tuesday at the public library? Excellent! A sports #drill with you at the park? No problem!</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="capture__why-info">
+            <div class="capture__why-calc bg-gray">
+                <div class="calc">
+                    <h2>Teaching is REWARDING. in Many Ways</h2>
+                    <p>We guarantee that you will have a fulfilling and entertaining experience, in a happy and friendly learning environment with people who have chosen YOU as their favourite potential teacher. Crowdfunding will provide a fee to compensate for your time, focus and energy. Please use the calculator below to estimate the required tuition fee and the number of students and keep this number in mind when creating your first course on Drill.</p>
+                
+                    <div class="capture__why-calc-holder">
+                        <form action="" method="post" enctype="multipart/form-data">
+                            <!-- @csrf -->
+                            <div class="capture__why-inputs">
+                                <div class="form-group">
+                                    <label for="price">Course Price per Person</label>
+                                    <input id="price" name="price" value="$1500" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label for="number">Number of Students</label>
+                                    <input id="number" name="number" value="8" type="number">
+                                </div>
+                            </div>
+                            <div class="capture__why-result">
+                                Your Potentional Income: 
+                                <span id="total" style="display:inline-block;">$4800 
+                                    <label> 
+                                        <a class="warning" href="#"></a>
+                                    </label>
+                                </span>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="capture__why-how">
+                <h2>Sign Up. And Take These Easy Steps Into Teaching</h2>
+                <div class="row">
+                    <div class="col">
+                        <div class="number">
+                            <img src="{{ asset('images/teacher/steps1.svg')}}" alt="Step">
+                        </div>
+                        <h3>Sign Up</h3>
+                        <p>This part is the hardest, after all</p>
+                    </div>
+                    <div class="col">
+                        <div class="number">
+                            <img src="{{ asset('images/teacher/steps2.svg')}}" alt="Step">
+                        </div>
+                        <h3>Get approved</h3>
+                        <p>This is just a quality check, however needed</p>
+                    </div>
+                    <div class="col">
+                        <div class="number">
+                            <img src="{{ asset('images/teacher/steps3.svg')}}" alt="Step">
+                        </div>
+                        <h3>Create Course</h3>
+                        <p> A little bit of text, photos and ideally a video will be a start</p>
+                    </div>
+                    <div class="col">
+                        <div class="number">
+                            <img src="{{ asset('images/teacher/steps4.svg')}}" alt="Step">
+                        </div>
+                        <h3>Find a Place</h3>
+                        <p>So your students can come</p>
+                    </div>
+                    <div class="col">
+                        <div class="number">
+                            <img src="{{ asset('images/teacher/steps5.svg')}}" alt="Step">
+                        </div>
+                        <h3>Start Teaching</h3>
+                        <p>Is that it? </p>
+                    </div>
+                </div>
+                <p class="btn-container"><a class="sign-in btn-2 btn-2--wide" href="#">Sign Up as Teacher</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footeris -->
+    <div class="footer">
+            <div class="footer__container">
+                <div class="row">
+                    <div class="col col1">
+                        <p>Company</p>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Magazine</a></li>
+                        </ul>
+                    </div>
+                    <div class="col col2">
+                        <p>Legal</p>
+                        <ul>
+                            <li><a href="http://drill.web3.lt/terms_conditions" class="showDialog">Terms and conditions</a></li>
+                            <li><a href="http://drill.web3.lt/privacy_policy" class="showDialog">Privacy Policy</a></li>
+                           <!-- <li><a href="#">Payments</a></li>  --> 
+                        </ul>
+                    </div>
+                    <div class="col col3">
+                        <p>Teach</p>
+                        <ul>
+                            <li><a href="http://drill.web3.lt/capture">Become a teacher</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col col4">
+                        <div class="footer__copy">
+                            © 2018 Drill
+                        </div>
+                        <div class="footer__socials">
+                            <ul>
+                                <li><a href="#" class="instagram"></a></li>
+                                <li><a href="#" class="linked"></a></li>
+                                <li><a href="#" class="fb"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="frontDialog" style="z-index: 10000;">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="dialogTitle"></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                  </button>
+                </div>
+                <div class="modal-body" id="dialogBody">
+                  <p></p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+    </div>
+    <div class="overlay overlay--sign-in" style="display: none;">
+            <div class="signup">
+                <div class="signup__block">
+                    <div class="signup__left" id="singupForm">
+                        <form action="http://drill.web3.lt/register" method="post" enctype="multipart/form-data">
+                            <input type="hidden" name="_token" value="Zftpe1pVzIihq2mNRgydeaWSQOgjicqlBOOJ8eIv">                    <h3>Sign Up</h3>
+                            <div class="form-group form-group--label form-group--radio">
+                                <label for="user-type1">
+                                    I am a teacher
+                                    <input id="user-type1" name="type" value="1" checked="checked" type="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label for="user-type2">
+                                    I am a student
+                                    <input id="user-type2" name="type" value="0" type="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <a class="btn-social btn-social--facebook" href="http://drill.web3.lt/redirect/facebook/1" id="connectWithFacebook">Connect with Facebook</a>
+                            </div>
+                            
+                             <div class="form-group">
+                                <a class="btn-social btn-social--google" href="http://drill.web3.lt/redirect/google/1" id="connectWithGoogle">Connect with Google</a>
+                            </div>
+                             
+                            <div class="form-divider">
+                                <span>or</span>
+                            </div>
+                            <div class="form-group form-group--text form-group--name">
+                                <input id="name" name="name" value="" placeholder="Your Name" required="required" class="form-control " type="text">
+                            </div>
+                            <div class="form-group form-group--text form-group--email">
+                                <input id="email" name="email" value="" placeholder="Email" required="required" class="form-control " type="email">
+                            </div>
+                            <div class="form-group form-group--text form-group--password">
+                                <input id="password" name="password" placeholder="Password" required="required" class="form-control " type="password">
+                            </div>
+                            
+                            
+                            
+                            <div class="form-divider form-divider--empty"></div>
+                            <div class="form-group form-group--label">
+                                <label for="user-terms">
+                                    I accept <a href="http://drill.web3.lt/terms_conditions" class="showDialog">terms and conditions</a>
+                                    <input id="user-terms" name="user-terms" value="" required="required" type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn-1 btn-1--rounded btn-1--gradient">Sign Up</button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="signup__left" id="loginForm" style="display: none;">
+                        <form action="http://drill.web3.lt/login_new_design" method="post" enctype="multipart/form-data">
+                            <input type="hidden" name="_token" value="Zftpe1pVzIihq2mNRgydeaWSQOgjicqlBOOJ8eIv">                    <h3>Log in</h3>
+                            <div class="form-group form-group--label form-group--radio">
+                                <label for="user-type12">
+                                    I am a teacher
+                                    <input id="user-type12" name="type2" value="1" checked="checked" type="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label for="user-type22">
+                                    I am a student
+                                    <input id="user-type22" name="type2" value="0" type="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <a class="btn-social btn-social--facebook" href="http://drill.web3.lt/redirect/facebook/1" id="connectWithFacebook2">Connect with Facebook</a>
+                            </div>
+                            
+                            <div class="form-group">
+                                <a class="btn-social btn-social--google" href="http://drill.web3.lt/redirect/google/1" id="connectWithGoogle2">Connect with Google</a>
+                            </div>
+                            
+                            <div class="form-divider">
+                                <span>or</span>
+                            </div>
+                           
+                            <div class="form-group form-group--text form-group--email">
+                                <input id="email" name="email" value="" placeholder="Email" required="required" class="form-control " type="email">
+                            </div>
+                            <div class="form-group form-group--text form-group--password">
+                                <input id="password" name="password" placeholder="Password" required="required" class="form-control " type="password">
+                            </div>
+                           
+                            <div class="form-divider form-divider--empty"></div>
+                           
+                            <div class="form-group">
+                                <button type="submit" class="btn-1 btn-1--rounded btn-1--gradient">Log in</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup__right" id="singupLoginBox">
+                        <h3>Already have <br>an account?</h3>
+                        <a class="btn-1 btn-1--rounded btn-1--gray" href="/login" id="singupLoginButton">Login</a>
+                    </div>
+                    <div class="signup__right" id="singupSingupBox" style="display: none;">
+                        <h3>Don't have have <br>an account?</h3>
+                        <a class="btn-1 btn-1--rounded btn-1--gray" href="/login" id="singupSingupButton">Singup</a>
+                    </div>
+                    <a class="close-x" href=""><img src="http://drill.web3.lt/images/close.png" alt=""></a>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+<script src="https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=6nyi0onouphxx561fk2kmis9c3746upneyclbaa1vr6azyep"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script type="text/javascript">
+
+       var siteURL="http://drill.web3.lt";
+
+</script>
+<script src="https://cdn.plyr.io/3.5.2/plyr.polyfilled.js"></script>
+
+<script src="http://drill.web3.lt/js/manup.js"></script>
+</body></html>
