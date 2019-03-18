@@ -83,7 +83,7 @@ module.exports = __webpack_require__(57);
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-$(document).ready(function () {
+jQuery(document).ready(function ($) {
 
 	$("#subscribe").submit(function (event) {
 		event.preventDefault();
