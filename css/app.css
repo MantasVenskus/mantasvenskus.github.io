@@ -14297,6 +14297,10 @@ form select.form-control {
     text-align: left;
     padding-left: 15%; }
 
+  .teacher .capture__why-inputs #number {
+    margin-left: 69px;
+  }
+
   .teacher .capture__why-calc-holder form .capture__why-result {
     text-align: left;
     padding-left: 15%;
@@ -14334,6 +14338,36 @@ form select.form-control {
   .capture__why-inputs .form-group input {
     max-width: 84px;
     font-size: 18px; }
+
+    .teacher .capture__why-inputs #number {
+    margin-left: 5px;
+  }
+
+  .teacher .capture__why-calc-holder form .capture__why-result,
+  .teacher .capture__why-inputs {
+    padding-left: 15px;
+  }
+
+  .teacher .capture__why-inputs .form-group,
+  .teacher .capture__why-result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .teacher .capture__why-result span {
+    display: flex;
+    align-items: center;
+  }
+
+  .teacher .capture__why-result span label,
+  .teacher .capture__why-inputs .form-group label {
+    margin-bottom: 0;
+  }
+
+  .teacher .capture__why-inputs .form-group label {
+    width: 60%;
+  }
 
   .capture__why-info h2 {
     padding: 0px 0 20px; } }
