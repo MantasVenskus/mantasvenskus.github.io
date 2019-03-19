@@ -14009,6 +14009,13 @@ form select.form-control {
           background-color: #fff;
           color: #48bf9d;
           padding: 10px 50px 12px; }
+
+          .student .capture__why-how p.btn-container a:hover {
+              color: #fff;
+              background: #1bac7a;
+              -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15), 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+              box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15), 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            }
   .student .capture__form {
     padding-top: 100px;
     text-align: center; }
