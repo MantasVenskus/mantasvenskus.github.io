@@ -112,21 +112,21 @@ jQuery(document).ready(function ($) {
 			$.each($teacher.find('label'), function() {
 				$(this).attr('for', $(this).attr('for') +'-' + teacher_count);
 			});
-			$.each($teacher.find('input'), function() {
+			$($teacher.find('input'), $teacher.find('textarea')).each(function() {
 				$(this).attr('id', $(this).attr('id') + '-' + teacher_count);
 			});
-			$.each($teacher.find('textarea'), function() {
-				$(this).attr('id', $(this).attr('id') + '-' + teacher_count);
+			$($teacher.find('input'), $teacher.find('textarea')).each(function() {
+				$(this).attr('name', $(this).attr('name') + '-' + teacher_count);
 			});
 		} else {
 			$.each($teacher.find('label'), function() {
 				$(this).attr('for', $(this).attr('for').slice(0, -1) + teacher_count);
 			});
-			$.each($teacher.find('input'), function() {
+			$($teacher.find('input'), $teacher.find('textarea')).each(function() {
 				$(this).attr('id', $(this).attr('id').slice(0, -1) + teacher_count);
 			});
-			$.each($teacher.find('textarea'), function() {
-				$(this).attr('id', $(this).attr('id').slice(0, -1) + teacher_count);
+			$($teacher.find('input'), $teacher.find('textarea')).each(function() {
+				$(this).attr('name', $(this).attr('name').slice(0, -1) + teacher_count);
 			});
 		}
 		teacher_count++;
