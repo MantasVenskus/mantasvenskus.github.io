@@ -13745,11 +13745,18 @@ form select.form-control {
     background-size: cover;
     border: none;
     padding-top: 140px; }
+.teacher .capture-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
   .teacher .capture__why-text {
-    float: left;
-    width: 100%;
+    
+    width: 50%;
     padding: 24px 15px 0 15px;
-    margin-left: 13.5%;
+    margin-right: auto;
     max-width: 590px; }
     .teacher .capture__why-text h1 {
       padding: 0 0 35px;
@@ -14349,10 +14356,11 @@ form select.form-control {
   }
 
   .teacher .capture__why-inputs .form-group,
-  .teacher .capture__why-result {
+  .teacher .capture__why-calc-holder form .capture__why-result {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 15px;
   }
 
   .teacher .capture__why-result span {
@@ -14363,6 +14371,10 @@ form select.form-control {
   .teacher .capture__why-result span label,
   .teacher .capture__why-inputs .form-group label {
     margin-bottom: 0;
+  }
+
+  .teacher .capture__why-result label a {
+    margin-left: 5px;
   }
 
   .teacher .capture__why-inputs .form-group label {
