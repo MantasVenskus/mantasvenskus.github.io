@@ -13636,6 +13636,9 @@ form select.form-control {
   .campaign-stats__item-img {
     max-height: 305px;
     max-width: 408px; } }
+    body {
+  scroll-behavior: smooth;
+}
 .capture {
   scroll-behavior: smooth;
   padding: 140px 0 82px 0; }
@@ -13746,7 +13749,7 @@ form select.form-control {
     background-size: cover;
     border: none;
     padding-top: 140px; }
-.teacher .capture-container {
+.capture-container {
   width: 100%;
   max-width: 1430px;
   margin: 0 auto;
