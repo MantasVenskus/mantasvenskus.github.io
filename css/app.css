@@ -13636,11 +13636,10 @@ form select.form-control {
   .campaign-stats__item-img {
     max-height: 305px;
     max-width: 408px; } }
-    body {
+    html {
   scroll-behavior: smooth;
 }
 .capture {
-  scroll-behavior: smooth;
   padding: 140px 0 82px 0; }
   .capture__container {
     margin: 0 auto;
@@ -13918,7 +13917,6 @@ form select.form-control {
         padding: 0; }
 
 .student {
-  scroll-behavior: smooth;
   padding: 0;
   padding-top: 80px; }
   .student .capture__sections section {
