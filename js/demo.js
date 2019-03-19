@@ -106,17 +106,35 @@ jQuery(document).ready(function ($) {
 	var teacher_count = 1;
 	$('.student.capture .add-teachers').on('click', function() {
 		var $teacher = $(this).parent().find('.add-teacher').eq(0).clone();
-		$.each($teacher.find('label'), function() {
-			$(this).attr('for', $(this).attr('for') +'-' + teacher_count);
-		});
-		$.each($teacher.find('input'), function() {
-			$(this).attr('id', $(this).attr('id') + '-' + teacher_count);
-		});
+		$teacher.find('input').val('');
+		$teacher.find('textarea').val('');
+		if (teacher_count < 2) {
+			$.each($teacher.find('label'), function() {
+				$(this).attr('for', $(this).attr('for') +'-' + teacher_count);
+			});
+			$.each($teacher.find('input'), function() {
+				$(this).attr('id', $(this).attr('id') + '-' + teacher_count);
+			});
+			$.each($teacher.find('textarea'), function() {
+				$(this).attr('id', $(this).attr('id') + '-' + teacher_count);
+			});
+		} else {
+			$.each($teacher.find('label'), function() {
+				$(this).attr('for', $(this).attr('for').slice(0, -1) + teacher_count);
+			});
+			$.each($teacher.find('input'), function() {
+				$(this).attr('id', $(this).attr('id').slice(0, -1) + teacher_count);
+			});
+			$.each($teacher.find('textarea'), function() {
+				$(this).attr('id', $(this).attr('id').slice(0, -1) + teacher_count);
+			});
+		}
 		teacher_count++;
 		$(this).before($teacher);
 	});
-	$('.student.capture .remove-teachers').on('click', function() {
-		if ($(this).parent().length < 2) {
+	$('.student.capture .capture__form').delegate('.remove-teacher', 'click', function() {
+		var $removes = $(this).parent().parent().find('.remove-teacher');
+		if ($removes.length < 2) {
 			return;
 		} else {
 			$(this).parent().remove();
