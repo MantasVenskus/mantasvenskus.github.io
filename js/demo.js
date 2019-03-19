@@ -106,7 +106,6 @@ jQuery(document).ready(function ($) {
 	var teacher_count = 1;
 	$('.student.capture .add-teachers').on('click', function() {
 		var $teacher = $(this).parent().find('.add-teacher').eq(0).clone();
-		//console.log($teacher.find('label').attr('for'));
 		$.each($teacher.find('label'), function() {
 			$(this).attr('for', $(this).attr('for') +'-' + teacher_count);
 		});
@@ -115,6 +114,13 @@ jQuery(document).ready(function ($) {
 		});
 		teacher_count++;
 		$(this).before($teacher);
+	});
+	$('.student.capture .remove-teachers').on('click', function() {
+		if ($(this).parent().length < 2) {
+			return;
+		} else {
+			$(this).parent().remove();
+		}
 	});
 });
 
