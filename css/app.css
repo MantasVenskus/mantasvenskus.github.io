@@ -13746,7 +13746,8 @@ form select.form-control {
     border: none;
     padding-top: 140px; }
 .teacher .capture-container {
-  max-width: 1400px;
+  max-width: 1430px;
+  padding: 0 15px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -13755,7 +13756,7 @@ form select.form-control {
   .teacher .capture__why-text {
     
     width: 50%;
-    padding: 24px 15px 0 15px;
+    padding: 24px 0 0 0;
     margin-right: auto;
     max-width: 590px; }
     .teacher .capture__why-text h1 {
@@ -13776,7 +13777,7 @@ form select.form-control {
       padding: 0; }
       .teacher .capture__sections section .col .text {
         max-width: 590px;
-        padding: 80px 15px 15px; }
+        padding: 80px 15px 15px 120px; }
         .teacher .capture__sections section .col .text.left-side {
           margin-left: 27%; }
         .teacher .capture__sections section .col .text h2 {
@@ -13801,16 +13802,13 @@ form select.form-control {
         width: 560px;
         max-width: 100%;
         margin: 0 auto; }
-    .teacher .capture__sections section.section-1 {
-      min-height: 577px; }
+
       .teacher .capture__sections section.section-1 .bg {
         background-image: url("/images/teacher/sec1.jpg"); }
-    .teacher .capture__sections section.section-2 {
-      min-height: 605px; }
+
       .teacher .capture__sections section.section-2 .bg {
         background-image: url("/images/teacher/sec2.jpg"); }
-    .teacher .capture__sections section.section-3 {
-      min-height: 500px; }
+
       .teacher .capture__sections section.section-3 .bg {
         background-image: url("/images/teacher/sec3.jpg"); }
   .teacher .capture__why-info {
