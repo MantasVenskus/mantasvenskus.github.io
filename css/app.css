@@ -13751,6 +13751,7 @@ form select.form-control {
   max-width: 1430px;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -13792,11 +13793,9 @@ form select.form-control {
           line-height: 28px;
           color: #888888; }
     .teacher .capture__sections section .bg {
-      background-position: right center;
+      background-position: center;
       background-repeat: no-repeat;
       background-size: auto 100%; }
-      .teacher .capture__sections section .bg.bg-left {
-        background-position: left center; }
       .teacher .capture__sections section .bg img {
         display: none;
         width: 560px;
