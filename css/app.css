@@ -13927,8 +13927,6 @@ form select.form-control {
       .student .capture__sections section .col .text {
         max-width: 590px;
         padding: 80px 15px 15px; }
-        .student .capture__sections section .col .text.left-side {
-          margin-left: 27%; }
         .student .capture__sections section .col .text h2 {
           font-weight: 300;
           font-size: 48px;
@@ -13962,34 +13960,27 @@ form select.form-control {
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15), 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
             }
     .student .capture__sections section .bg {
-      background-position: right center;
+      background-position: center;
       background-repeat: no-repeat;
       background-size: auto 100%; }
-      .student .capture__sections section .bg.bg-left {
-        background-position: left center; }
       .student .capture__sections section .bg img {
         display: none;
         width: 560px;
         max-width: 100%;
         margin: 0 auto; }
-    .student .capture__sections section.section-1 {
-      min-height: 577px; }
+
       .student .capture__sections section.section-1 .bg {
         background-image: url("/images/student/sec1.jpg"); }
-    .student .capture__sections section.section-2 {
-      min-height: 605px; }
+
       .student .capture__sections section.section-2 .bg {
         background-image: url("/images/student/sec2.jpg"); }
-    .student .capture__sections section.section-3 {
-      min-height: 500px; }
+
       .student .capture__sections section.section-3 .bg {
         background-image: url("/images/student/sec3.jpg"); }
-    .student .capture__sections section.section-4 {
-      min-height: 500px; }
+
       .student .capture__sections section.section-4 .bg {
         background-image: url("/images/student/sec4.jpg"); }
-    .student .capture__sections section.section-5 {
-      min-height: 500px; }
+
       .student .capture__sections section.section-5 .bg {
         background-image: url("/images/student/sec5.jpg"); }
   .student .capture__why-how {
