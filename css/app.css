@@ -14180,6 +14180,10 @@ form select.form-control {
   margin-right: auto;
   margin-left: auto;
 }
+  .teacher .capture__why-text {
+    margin-right: auto;
+    margin-left: auto;
+  }
   .teacher .capture__why-inputs {
     padding: 34px 0 35px 0; }
   .teacher .capture__why-result {
