@@ -13738,7 +13738,13 @@ form select.form-control {
 
 .bg-gray {
   background-color: #F6F6F6; }
-
+.capture .capture__sections section .col .text {
+  margin-left: auto;
+}
+.capture .capture__sections section .col .text.left-side {
+  margin-right: auto;
+  margin-left: 0;
+}
 .teacher {
   padding: 0; }
   .teacher .capture__why {
@@ -13781,7 +13787,8 @@ form select.form-control {
       padding: 0; }
       .teacher .capture__sections section .col .text {
         max-width: 590px;
-        padding: 80px 15px 120px 15px; }
+        padding: 80px 15px 120px 15px;
+        }
 
         .teacher .capture__sections section .col .text h2 {
           font-weight: 300;
@@ -14165,6 +14172,14 @@ form select.form-control {
     .capture__why-result span {
       font-size: 28px; }
 
+      .capture .capture__sections section .col .text {
+  margin-left: auto;
+  margin-right: auto;
+}
+.capture .capture__sections section .col .text.left-side {
+  margin-right: auto;
+  margin-left: auto;
+}
   .teacher .capture__why-inputs {
     padding: 34px 0 35px 0; }
   .teacher .capture__why-result {
