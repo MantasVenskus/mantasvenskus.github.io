@@ -13794,6 +13794,28 @@ form select.form-control {
           font-size: 18px;
           line-height: 28px;
           color: #888888; }
+.teacher .capture__sections section .col .text p.btn-container {
+  padding-top: 12px;
+}
+        .teacher .capture__sections section .col .text p.btn-container a {
+          display: inline-block;
+          width: 240px;
+          height: 60px;
+          border: 2px solid #ff2660;
+          border-radius: 30px;
+          font-weight: 300;
+          font-size: 24px;
+          line-height: 56px;
+          text-align: center;
+          color: #ff2660;
+          vertical-align: middle;
+        }
+          .teacher .capture__sections section .col .text p.btn-container a:hover {
+            color: #fff;
+            background-color: #ff2660;
+            -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15), 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15), 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+          }
     .teacher .capture__sections section .bg {
       background-position: left center;
       background-repeat: no-repeat;
