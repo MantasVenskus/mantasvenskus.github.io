@@ -14331,7 +14331,8 @@ form select.form-control {
       width: 100%;
       flex-basis: 100%; }
       .student.capture .capture__sections section .col .text {
-        margin: 0 auto; }
+        margin: 0 auto;
+        padding-top: 0; }
     .student.capture .capture__sections section .bg {
       background: none;
       order: 2; }
