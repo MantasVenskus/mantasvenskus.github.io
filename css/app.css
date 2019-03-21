@@ -14306,7 +14306,9 @@ form select.form-control {
 
   .capture__why-inputs {
     padding: 30px 20px 25px 20px; }
-
+.teacher.capture {
+  padding-top: 30px
+}
   .teacher.capture .capture__why-text {
     float: none;
     width: 100%;
