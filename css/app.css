@@ -13746,7 +13746,8 @@ form select.form-control {
   margin-left: 0;
 }
 .teacher {
-  padding: 0; }
+  padding: 0;
+  padding-top: 120px; }
   .teacher .capture__why {
     background: url("/images/teacher/back_head.jpg");
     background-repeat: no-repeat;
