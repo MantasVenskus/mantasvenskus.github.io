@@ -13832,6 +13832,7 @@ form select.form-control {
           .teacher .capture__sections section#section-0 .col .text p.btn-container a:hover {
           color: #fff;
           background: #1bac7a;
+          border-color: #1bac7a;
         }
     .teacher .capture__sections section .bg {
       background-position: left center;
