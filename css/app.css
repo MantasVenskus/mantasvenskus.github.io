@@ -13833,6 +13833,9 @@ form select.form-control {
         max-width: 100%;
         margin: 0 auto; }
 
+        .teacher .capture__sections section.section-0 .bg {
+        background-image: url("/images/teacher/sec0.jpg"); }
+
       .teacher .capture__sections section.section-1 .bg {
         background-image: url("/images/teacher/sec1.jpg"); }
 
