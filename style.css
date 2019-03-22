@@ -165,6 +165,7 @@ html body section.header a:hover {
 }
 html body section.header p {
   margin-top: 2rem;
+  max-width: 60rem;
 }
 html body section.header p a {
   font-weight: 600;
