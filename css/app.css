@@ -14339,7 +14339,7 @@ form select.form-control {
       .teacher.capture .capture__sections section .col .text {
         margin: 0 auto; }
         .teacher.capture .capture__sections section#section-0 .col .text {
-          padding: 80px 0;
+          padding: 80px 15px;
         }
     .teacher.capture .capture__sections section .bg {
       background: none;
