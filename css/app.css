@@ -13735,7 +13735,13 @@ form select.form-control {
     padding: 0 0 30px;
     font-size: 18px;
     line-height: 1.6; }
-
+.capture-page .headerblock {
+    border: none;
+    background: none;
+  }
+.capture-page .headerblock__search {
+  display: none;
+}
 .bg-gray {
   background-color: #F6F6F6; }
 .capture .capture__sections section .col .text {
@@ -13747,7 +13753,7 @@ form select.form-control {
 }
 .teacher {
   padding: 0;
-  padding-top: 120px; }
+ }
   .teacher .capture__why {
     background: url("/images/teacher/back_head.jpg");
     background-repeat: no-repeat;
@@ -13789,6 +13795,9 @@ form select.form-control {
       .teacher .capture__sections section .col .text {
         max-width: 590px;
         padding: 80px 15px 120px 15px;
+        }
+        .teacher .capture__sections section#section-0 .col .text {
+          padding: 160px 15px;
         }
 
         .teacher .capture__sections section .col .text h2 {
@@ -14316,9 +14325,7 @@ form select.form-control {
 
   .capture__why-inputs {
     padding: 30px 20px 25px 20px; }
-.teacher.capture {
-  padding-top: 30px
-}
+
   .teacher.capture .capture__why-text {
     float: none;
     width: 100%;
@@ -14331,6 +14338,9 @@ form select.form-control {
       flex-basis: 100%; }
       .teacher.capture .capture__sections section .col .text {
         margin: 0 auto; }
+        .teacher.capture .capture__sections section#section-0 .col .text {
+          padding: 80px 0;
+        }
     .teacher.capture .capture__sections section .bg {
       background: none;
       order: 2; }
