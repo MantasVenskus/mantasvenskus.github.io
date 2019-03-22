@@ -163,6 +163,15 @@ html body section.header a {
 html body section.header a:hover {
   text-decoration: underline;
 }
+html body section.header p {
+  margin-top: 2rem;
+}
+html body section.header p a {
+  font-weight: 600;
+}
+html body section.header p a:hover {
+  font-weight: 400;
+}
 html body section.works {
   display: flex;
   justify-content: space-around;
