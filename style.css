@@ -260,6 +260,11 @@ html body section.more-info p a {
 html body section.more-info p a:hover {
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  html body section.more-info {
+    padding-left: 1rem;
+  }
+}
 html body .overlay {
   display: none;
   position: fixed;
