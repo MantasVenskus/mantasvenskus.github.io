@@ -179,7 +179,7 @@ html body section.works {
 html body section.works .item {
   width: 30%;
   min-width: 30rem;
-  margin-bottom: 3rem;
+  margin: 0 0.3% 3rem 0.3%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
