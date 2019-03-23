@@ -166,12 +166,10 @@ html body section.header a:hover {
 html body section.header p {
   margin-top: 2rem;
   max-width: 60rem;
+  line-height: 1.5;
 }
 html body section.header p a {
   font-weight: 600;
-}
-html body section.header p a:hover {
-  font-weight: 400;
 }
 html body section.works {
   display: flex;

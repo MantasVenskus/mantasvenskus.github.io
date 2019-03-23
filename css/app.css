@@ -13787,6 +13787,8 @@ form select.form-control {
       .teacher .capture__why-text p.btn-container {
         padding-bottom: 143px; }
   .teacher .capture__sections section {
+    position: relative; 
+    overflow: hidden;
     display: flex;
     justify-content: center; }
     .teacher .capture__sections section .col {
@@ -13846,7 +13848,8 @@ form select.form-control {
     .teacher .capture__sections section .bg {
       background-position: left center;
       background-repeat: no-repeat;
-      background-size: auto 100%; }
+      background-size: auto 100%;
+      }
       .teacher .capture__sections section .bg img {
         display: none;
         width: 560px;
@@ -13854,7 +13857,19 @@ form select.form-control {
         margin: 0 auto; }
 
         .teacher .capture__sections section.section-0 .bg {
-        background-image: url("/images/teacher/sec0.jpg"); }
+        background-image: url("../images/teacher/sec0.jpg"); }
+
+        .teacher .capture__sections section.section-0 .bg:after {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          width: 50vw;
+          background-image: url("../images/teacher/sec0.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
 
       .teacher .capture__sections section.section-1 .bg {
         background-image: url("/images/teacher/sec1.jpg"); }
@@ -14341,6 +14356,13 @@ form select.form-control {
         .teacher.capture .capture__sections section#section-0 .col .text {
           padding: 80px 15px;
         }
+        .teacher.capture .capture__sections section#section-0 .bg:after {
+          display: none;
+        }
+        .teacher.capture .capture__sections section#section-0 .bg img {
+          width: 100%;
+        }
+
     .teacher.capture .capture__sections section .bg {
       background: none;
       order: 2; }
