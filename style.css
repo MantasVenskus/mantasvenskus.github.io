@@ -171,6 +171,11 @@ html body section.header p {
 html body section.header p a {
   font-weight: 600;
 }
+@media (max-width: 768px) {
+  html body section.header {
+    padding-left: 1rem;
+  }
+}
 html body section.works {
   display: flex;
   justify-content: space-around;
@@ -261,8 +266,8 @@ html body .overlay {
   z-index: 2;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
+  width: 100%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
 }
 html body .overlay img {
