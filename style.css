@@ -277,3 +277,8 @@ html body .overlay img {
   border: 1rem solid #eeeeee;
   border-radius: 5px;
 }
+@media (max-width: 768px) {
+  html body .overlay {
+    position: absolute;
+  }
+}
